@@ -1,6 +1,6 @@
 /* generic stuff */
 body {
-    background-color: #fae8e8;
+    background-color: whitesmoke; /* background-color: #fae8e8; */
     font-family: sans-serif;
     color: #575757;
     word-spacing: .1em;
@@ -29,17 +29,22 @@ div {
   height: 55px;
 }
 
-.stats {
+.stats-msg {
   border: 1px solid #6f0c0c;
   border-radius: 4px;
-  widows: 800px;
+  width: 80%;
   height: 403px;
-  background-image: url("mars.jpg");
-  background-size: cover;
-  font-size: 1.4em;
+	margin: 0 10% 0 10%;
+  /*
+	  background-image: url("mars.jpg");
+	*/
+	background-size: cover;
+  font-size: 1.1em;
+	letter-spacing: .05em;
   text-align: left; 
   padding: 15px;
   color: #74001f;
+	visibility: hidden; 
 }
 
 .button {
@@ -63,6 +68,14 @@ div {
     background-color: #bfbfbf;
 }
 
+.pledge-info {
+	margin-bottom: 15px;
+	height: 20px;
+	width: 250px;
+	font-size: 1em;
+	padding: 2px;
+}
+
 .paragraph {
     width: 80%;
     /* border: 1px solid #afafaf; */ 
@@ -70,6 +83,14 @@ div {
     padding: 5px;
     margin: 0 10% 35px 10%;
     font-size: 1.2em;
+}
+
+.buttons {
+	float: left;
+	text-align: left;
+	width: 80%;
+	margin: 0 19% 0 10%;
+  padding: 5px;
 }
 
 .important {
@@ -81,11 +102,12 @@ div {
     background-color: #ffffff;
 }
 
-/* classes */ 
 #shoe-before {
     background-color: #d9eadf;
 }
 #shoe-after {
     background-color: aliceblue;
 }
+
+
 
