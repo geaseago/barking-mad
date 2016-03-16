@@ -1,0 +1,62 @@
+/* generic stuff */
+body {
+    background-color: #fdfdfd;
+    font-family: sans-serif;
+    color: #575757;
+    word-spacing: .1em;
+    font-size: 100%;
+}
+p {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+div {
+    margin-bottom: 10px;
+}
+.clear {
+    clear: both;
+}
+
+/* specific stuff */ 
+.button {
+    float: left;
+    border-radius: 2px;
+    border: 1px solid #040464;
+    background-color: #dedede;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+    width: 80px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #eaeaea;
+}
+
+.button:active {
+    background-color: #bfbfbf;
+}
+
+.shoe {
+    width: 90%;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.messages {
+    height: 250px;
+    background-color: #ffffff;
+}
+
+/* classes */ 
+#shoe-before {
+    background-color: #d9eadf;
+}
+#shoe-after {
+    background-color: aliceblue;
+}
+
